@@ -2,3 +2,4 @@ scikit-learn
 skops
 black
 cml
+numpy==1.24.4
