@@ -29,6 +29,10 @@ jobs:
       - name: Install dependencies
         run: make install
 
+      - name: Show installed packages
+        run: pip freeze
+
+
       - name: Format code
         run: make format
 
